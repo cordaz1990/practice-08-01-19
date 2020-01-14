@@ -1,3 +1,11 @@
-print('hello')
-print('world')
-print('hello')
+>>> t = ['a','b','c']
+>>>t.append('d')
+>>>t
+['a','b','c', 'd']
+
+>>>t1 = ['a','b','c']
+>>>t2 = ['d','e']
+>>>t1.extend(t2)
+>>>t1
+['a','b','c','d','e']
+      
